@@ -11,6 +11,8 @@ const config: Config = {
       colors: {
         'mf-blue': '#25234B',
         'mf-green': '#79F1C0',
+        ash: '#232426',
+        chalk: '#F8F9FA',
       },
     },
   },
