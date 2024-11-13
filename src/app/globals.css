@@ -19,3 +19,29 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+a.link {
+  text-decoration: none;
+  position: relative;
+  color: #232426;
+}
+
+@media screen and (min-width: 1024px) {
+  a.link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1.5px;
+    background-color: #26224f;
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.2s;
+  }
+
+  a.link:hover::after {
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+}

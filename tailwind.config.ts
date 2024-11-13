@@ -9,10 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'mf-blue': '#25234B',
-        'mf-green': '#79F1C0',
+        'mf-blue': '#26224F',
+        'mf-green': '#30F6BA',
         ash: '#232426',
-        chalk: '#F8F9FA',
+        chalk: '#FAFAFA',
       },
     },
   },
