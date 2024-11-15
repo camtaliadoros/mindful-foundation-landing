@@ -8,8 +8,9 @@ export default function Home() {
         <Image
           src='/Mindful Foundation logo.jpeg'
           alt='Mindful Foundation Logo'
-          width={200}
-          height={150}
+          width={280}
+          height={100}
+          className=' max-w-36 lg:max-w-56 h-fit m-4'
         />
         <p className='text-chalk text-right font-bold text-xs md:text-base lg:hidden m-4'>
           Site being updated.
