@@ -58,12 +58,16 @@ a {
 }
 
 a.link {
-  text-decoration: none;
   position: relative;
   color: #232426;
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 1024px) {
+  a.link {
+    text-decoration: none;
+  }
+
   a.link::after {
     content: '';
     position: absolute;
