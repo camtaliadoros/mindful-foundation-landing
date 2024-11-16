@@ -14,10 +14,47 @@
   }
 }
 
+@font-face {
+  font-family: 'FoundersGrotesk';
+  src: url('./fonts/FoundersGrotesk-Medium.otf') format('otf');
+  font-weight: medium;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk';
+  src: url('./fonts/FoundersGrotesk-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  line-height: 2rem;
+  font-size: 1.875rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: 'Founders Grotesk', 'sans-serif';
+}
+
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
 }
 
 a.link {
