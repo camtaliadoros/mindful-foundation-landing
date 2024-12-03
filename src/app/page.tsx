@@ -51,7 +51,8 @@ export default function Home() {
           To learn more about our abuse prevention initiative,{' '}
           <Link
             className='link font-groteskMedium  hover:font-black hover:text-mf-green transition'
-            href='/'
+            href='https://think-different.org/'
+            target='_blank'
           >
             visit Think Different.
           </Link>
@@ -60,7 +61,8 @@ export default function Home() {
           For information on how we support and protect victims of abuse,{' '}
           <Link
             className='font-groteskMedium link hover:text-mf-green hover:font-black transition'
-            href='/'
+            href='https://listenapp.org/'
+            target='_blank'
           >
             visit ListenApp.
           </Link>
