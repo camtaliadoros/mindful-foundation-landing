@@ -46,7 +46,7 @@ export default function Home() {
             protecting those that experience it. Please visit the websites below
             for information on these projects:
           </h3>
-          <ul className='[&_li]:font-groteskMedium  [&_li]:lg:text-base [&_li]:text-sm space-y-2'>
+          <ul className='[&_li]:font-groteskMedium  [&_li]:lg:text-base [&_li]:text-sm space-y-2 mb-2'>
             <li>
               <Link
                 className='link font-groteskMedium  hover:text-mf-green transition'
@@ -68,17 +68,17 @@ export default function Home() {
               </Link>
             </li>
           </ul>
-          <p>
-            Please contact us at{' '}
-            <Link
-              className='font-groteskMedium link hover:text-mf-green  transition'
-              href='mailto:info@themindfulfoundation.org'
-            >
-              info@themindfulfoundation.org
-            </Link>{' '}
-            for information, queries, or support.
-          </p>
         </div>
+        <p>
+          Please contact us at{' '}
+          <Link
+            className='font-groteskMedium link hover:text-mf-green  transition'
+            href='mailto:info@themindfulfoundation.org'
+          >
+            info@themindfulfoundation.org
+          </Link>{' '}
+          for information, queries, or support.
+        </p>
       </div>
       <div className='bg-mf-blue lg:flex items-end hidden'>
         <p className='text-chalk font-bold text-xs md:text-base m-4 font-groteskMedium'>
