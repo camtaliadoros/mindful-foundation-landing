@@ -63,11 +63,21 @@ export default function Home() {
                 href='https://listenapp.org/'
                 target='_blank'
               >
-                ListenApp, a secret mobile app to protect victims of abuse using
+                ListenApp: A secret mobile app to protect victims of abuse using
                 advanced technology
               </Link>
             </li>
           </ul>
+          <p>
+            Please contact us at{' '}
+            <Link
+              className='font-groteskMedium link hover:text-mf-green  transition'
+              href='mailto:info@themindfulfoundation.org'
+            >
+              info@themindfulfoundation.org
+            </Link>{' '}
+            for information, queries, or support.
+          </p>
         </div>
       </div>
       <div className='bg-mf-blue lg:flex items-end hidden'>
