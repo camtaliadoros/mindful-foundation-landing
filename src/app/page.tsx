@@ -63,7 +63,7 @@ export default function Home() {
                 href='https://listenapp.org/'
                 target='_blank'
               >
-                ListenApp: A secret mobile app to protect victims of abuse using
+                ListenApp: a secret mobile app to protect victims of abuse using
                 advanced technology
               </Link>
             </li>
