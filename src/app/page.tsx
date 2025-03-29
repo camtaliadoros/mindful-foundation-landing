@@ -16,8 +16,13 @@ export default function Home() {
           Site being updated.
         </p>
       </div>
-      <div></div>
-      <div className='bg-mf-blue w-full flex self-center h-full items-center justify-center lg:justify-end row-span-4'>
+      <div className='m-4 hidden lg:flex  lg:items-center'>
+        {' '}
+        <h2 className='font-groteskMedium font-bold  text-2xl text-mf-blue '>
+          Our website is being updated.
+        </h2>
+      </div>
+      <div className='bg-mf-blue w-full flex self-center h-full items-center justify-center lg:justify-end row-span-5'>
         <div className='[&_h2]:font-groteskMedium lg:justify-self-end lg:mr-4 flex flex-col h-8 lg:h-16 overflow-hidden [&_h2]:text-mf-green [&_h2]:h-8 [&_h2]:lg:h-16  [&_h2]:mb-8 [&_h2]:lg:mb-16 [&_h2]:inline-block [&_h2]:text-center [&_h2]:lg:text-right  items-center'>
           <h2 className='first:animate-text-animation-mobile lg:first:animate-text-animation'>
             Empowering Lives
@@ -26,7 +31,10 @@ export default function Home() {
           <h2>Healing Futures</h2>
         </div>
       </div>
-      <div className='[&_p]:text-mf-blue [&_p]:font-groteskRegular  [&_p]:text-sm [&_p]:md:text-base m-4 flex flex-col justify-center row-span-4 gap-4'>
+      <div className='[&_p]:text-mf-blue [&_p]:font-groteskRegular  [&_p]:text-sm [&_p]:md:text-base m-4 flex flex-col justify-center row-span-5 gap-4'>
+        <h2 className='font-groteskMedium font-bold  text-xl text-mf-blue lg:hidden'>
+          Our website is being updated.
+        </h2>
         <p>
           The Mindful Foundation is committed to building a world where
           children, men, and women, feel safe, supported, and connected. We work
@@ -78,11 +86,6 @@ export default function Home() {
             info@themindfulfoundation.org
           </Link>{' '}
           for information, queries, or support.
-        </p>
-      </div>
-      <div className='bg-mf-blue lg:flex items-end hidden'>
-        <p className='text-chalk font-bold text-xs md:text-base m-4 font-groteskMedium'>
-          Site being updated.
         </p>
       </div>
     </div>
